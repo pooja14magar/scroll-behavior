@@ -1,0 +1,54 @@
+html{
+    scroll-behavior:smooth ;
+}
+body{
+    margin: 0;
+}
+.section{
+    padding: 60px 40px;
+}
+.section h2{
+    font-size: 30px;
+    text-align: center;
+}
+#menu{
+    background-color: rgba(255,255,255,0.9);
+    display: block;
+    padding: 1em 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+
+}
+#menu a{
+    font-size: 25px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#menu a {
+    color: #006266;
+    margin: 0 1em;
+    text-decoration: none;
+}
+
+#Home{
+    background-color: bisque;
+}
+
+#About{
+    background-color:lightblue ;
+}
+
+#Gallery{
+    background-color:lightcoral;
+}
+#contact{
+    background-color: lightpink;
+}
+#scroll{
+    width: 900px;
+    height: 500px;
+    overflow-y:auto;
+    scroll-behavior: smooth;
+}

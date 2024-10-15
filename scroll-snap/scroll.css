@@ -1,0 +1,24 @@
+html{
+    scroll-snap-type: y proximity;
+}
+body{
+    margin: 0;
+}
+.section{
+    padding: 60px 40px;
+    scroll-snap-align:start;
+    
+}
+.section h2{
+    font-size: 30px;
+    text-align: center;
+}
+#section1{
+    background-color: lightblue;
+}
+#section2{
+    background-color: lightcoral;
+}
+#section3{
+    background-color: lightpink;
+}

@@ -1,0 +1,14 @@
+   
+#test1 :is(h1,h2,h3){
+color: brown;
+}
+
+:is(#test1,#test2) h1{
+    color: aquamarine;
+}
+:is(#test1,#test2) :is(h1,p){
+    color: lightpink;
+}
+:is(#test1,#test2) p:hover{
+color: green;
+}
